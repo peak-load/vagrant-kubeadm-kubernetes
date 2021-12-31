@@ -36,9 +36,9 @@ kubeadm token create --print-join-command > /vagrant/configs/join.sh
 
 # Install Calico Network Plugin
 
-curl https://docs.projectcalico.org/manifests/calico.yaml -O
+# curl https://docs.projectcalico.org/manifests/calico.yaml -O
 
-kubectl apply -f calico.yaml
+# kubectl apply -f calico.yaml
 
 # Install Metrics Server
 
